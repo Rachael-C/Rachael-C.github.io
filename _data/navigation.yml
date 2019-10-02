@@ -1,0 +1,10 @@
+- name: Jesus 
+  link: /content/jesus.html
+- name: About
+  link: /
+- name: Doctrine
+  link: /content/doctrine.html
+- name: Contact
+  link: /content/contact.html
+- name: 中文团契
+  link: /content/chinese_fellowship.html
