@@ -221,7 +221,8 @@ body {
 
 .pair1 {
   border-left: 10px solid transparent;
-  border-left-image: url(../images/stripe1.png) 30 stretch;
+  border-image: url(../images/stripe1.png) 30 stretch;
+  border-right: none;
   padding-left: 10px;
 }
 
