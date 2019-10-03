@@ -172,7 +172,7 @@ body {
 .page-content.jesus-content {
   margin: 0px;
   padding-top: 60px; 
-  margin-bottom: 120px;
+  margin-bottom: 170px;
 }
 
 .jesus-navbar.navbar {
@@ -221,31 +221,31 @@ body {
 
 .pair1 {
   border-left: 10px solid transparent;
-  border-image: url(../images/stripe1.png) 30 stretch;
+  border-left-image: url(../images/stripe1.png) 30 stretch;
   padding-left: 10px;
 }
 
 .pair2 {
   border-left: 10px solid transparent;
-  border-image: url(../images/stripe2.png) 30 stretch;
+  border-left-image: url(../images/stripe2.png) 30 stretch;
   padding-left: 10px;
 }
 
 .pair3 {
   border-left: 10px solid transparent;
-  border-image: url(../images/stripe3.png) 30 stretch;
+  border-left-image: url(../images/stripe3.png) 30 stretch;
   padding-left: 10px;
 }
 
 .pair4 {
   border-left: 25px solid transparent;
-  border-image: url(../images/stripe_4.png) 250 stretch;
+  border-left-image: url(../images/stripe_4.png) 250 stretch;
   //padding-left: 10px;
 }
 
 .pair5 {
   border-left: 40px solid transparent;
-  border-image: url(../images/stripe_5.png) 250 stretch;
+  border-left-image: url(../images/stripe_5.png) 250 stretch;
   padding-left: 0px;
 }
 
