@@ -222,9 +222,8 @@ body {
 .pair1 {
   border-left: 10px solid transparent;
   border-image-source: url(../images/stripe1.png);
-  //border-image-width: 5px;
+  border-image-width: 10px;
   border-image-repeat: stretch;
-  border-image-slice: 30;
   padding-left: 10px;
 }
 

@@ -77,7 +77,7 @@ body { background-color: #e9eaef; }
 
 .orange { color: #f5d8c6; }
 
-.pair1 { border-left: 10px solid transparent; border-image-source: url(../images/stripe1.png); border-image-repeat: stretch; border-image-slice: 30; padding-left: 10px; }
+.pair1 { border-left: 10px solid transparent; border-image-source: url(../images/stripe1.png); border-image-width: 10px; border-image-repeat: stretch; padding-left: 10px; }
 
 .pair2 { border-left: 10px solid transparent; border-image: url(../images/stripe2.png) 30 stretch; padding-left: 10px; }
 
