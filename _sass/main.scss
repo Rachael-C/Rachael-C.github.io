@@ -221,32 +221,35 @@ body {
 
 .pair1 {
   border-left: 10px solid transparent;
-  border-image: url(../images/stripe1.png) 30 stretch;
-  border-right: none;
+  border-image-source: url(../images/stripe1.png);
+  //border-image-width: 5px;
+  border-image-repeat: stretch;
+  border-image-slice: 30;
   padding-left: 10px;
 }
 
 .pair2 {
   border-left: 10px solid transparent;
-  border-left-image: url(../images/stripe2.png) 30 stretch;
+  border-image: url(../images/stripe2.png) 30 stretch;
   padding-left: 10px;
 }
 
 .pair3 {
   border-left: 10px solid transparent;
-  border-left-image: url(../images/stripe3.png) 30 stretch;
+  border-image: url(../images/stripe3.png) 30 stretch;
   padding-left: 10px;
 }
 
 .pair4 {
   border-left: 25px solid transparent;
-  border-left-image: url(../images/stripe_4.png) 250 stretch;
+  border-image: url(../images/stripe_4.png) 250 stretch;
   //padding-left: 10px;
 }
 
 .pair5 {
   border-left: 40px solid transparent;
-  border-left-image: url(../images/stripe_5.png) 250 stretch;
+  border-image: url(../images/stripe_5.png) 250 stretch;
+  //border-image-width: 15px;
   padding-left: 0px;
 }
 
