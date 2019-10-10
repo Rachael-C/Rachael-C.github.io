@@ -101,6 +101,33 @@ main {
   margin: 0px;
 }
 
+.navbar-nav.jesus > .nav-item.nav-link {
+    border: 2px solid rgb(0, 27, 55);
+    color: white !important;
+    padding: .2rem;
+  }
+  
+.navbar-nav.jesus > .nav-item:hover, .navbar-nav.jesus > .nav-link:hover {
+  border: 2px solid white;
+  padding: .2rem;
+}
+  
+.navbar-nav.jesus > .nav-item.nav-link.active {
+  border: none;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(1,60,121);
+}
+
+@media (max-width: 992px) {
+  .navbar-nav.jesus > .nav-item.nav-link.active {
+    border-bottom: none;
+  }
+  
+  .navbar-nav.jesus > .nav-item.nav-link:hover {
+    border: 2px solid rgb(0, 27, 55);
+  }
+}
+
 .point1 {
   border-left: 3px solid transparent;
 }

@@ -74,11 +74,6 @@ body {
   background-color: rgb(233, 234, 239);
 }
 
-.navbar-title, .navbar-title:hover {
-  color: black;
-  text-decoration: none;
-}
-
 .nav-item, .nav-link {
   border: 2px solid rgb(233, 234, 239);
   color: black !important;
@@ -311,6 +306,15 @@ body {
 
 
 @media (max-width: 992px) {
+
+  .navbar-nav > .nav-item.nav-link.active {
+    border: none;
+  }
+  
+  .navbar-nav > .nav-item.nav-link:hover {
+    border: 2px solid rgb(233, 234, 239);
+  }
+  
   .navbar-nav.jesus .nav-item.nav-link.active, .nav-item.nav-link.active {
     border-bottom: none;
   }
