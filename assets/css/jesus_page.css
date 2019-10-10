@@ -1,0 +1,130 @@
+.bible-passage {
+  text-align: center;
+  color: white;
+}
+
+.bible-passage.main {
+  font-size: 1.3rem;
+}
+
+body {
+  background-color: rgb(147, 85, 95);
+}
+
+.color-block1 {
+  background-color: rgb(0, 27, 55);
+  padding: 0px 40px;
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+
+.color-block2 {
+  background-color: rgb(0, 15, 37);
+  padding: 0px 20px;
+  padding-bottom: 1px;
+  padding-top: 15px;
+}
+
+.color-block3 {
+  background-color: rgb(0, 4, 20);
+  padding: 0px 20px;
+  padding-bottom: 1px;
+  padding-top: 15px;
+}
+
+.color-block4 {
+  background-color: rgb(0, 20, 44);
+  padding: 0px 20px;
+  padding-bottom: 1px;
+  padding-top: 15px;
+}
+
+.color-block5 {
+  background-color: rgb(24, 36, 61);
+  padding: 0px 20px;
+  padding-bottom: 1px;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.color-block6 {
+  background-color: rgb(67, 52, 70);
+  padding: 0px 20px;
+  padding-bottom: 1px;
+  padding-top: 15px;
+}
+
+.color-block7 {
+  background-color: rgb(129, 75, 84);
+  padding: 0px 20px;
+  padding-bottom: 1px;
+  padding-top: 15px;
+}
+
+.color-block8 {
+  background-color: rgb(147, 85, 95);
+  padding: 0px 20px;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+.contact-us-link {
+  color: white;
+}
+
+.dark-background {
+  color: rgb(81, 129, 180);
+}
+
+.final-point {
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.gospel-meaning {
+  color: rgb(6, 82, 161);
+}
+
+.light-background {
+  color: rgb(245, 216, 198);
+}
+
+main {
+  color: rgb(0,59,121);
+  margin: 0px;
+  margin-bottom: 170px;
+  padding-top: 60px; 
+}
+
+.navbar {
+  background-color: rgb(0, 27, 55);
+  margin: 0px;
+}
+
+.point1 {
+  border-left: 3px solid transparent;
+}
+
+.point2 {
+  border-left: 3px solid transparent;
+}
+
+.point3 {
+  border-left: 3px solid transparent;
+}
+
+.point4 {
+  border-left: 3px solid transparent;
+}
+
+.point5 {
+  border-left: 3px solid transparent;
+}
+
+.romans5 {
+  background-color: rgb(42, 89, 114);
+}
+
+
+/* media queries */
+

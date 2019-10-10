@@ -2,15 +2,6 @@ body {
   background-color: rgb(233, 234, 239);
 }
 
-.bible-passage {
-  text-align: center;
-  color: white;
-}
-
-.bible-passage.main {
-  font-size: 1.3rem;
-}
-
 .banner-text {
   text-align: center;
   font-size: 2.5rem;
@@ -45,9 +36,8 @@ body {
   padding: 7px 7px;
 }
 
-.final-point {
-  border: 3px solid white;
-  padding: 10px;
+.doctrine li:nth-of-type(odd) {
+  background-color: white;
 }
 
 .footer-container {
@@ -59,17 +49,14 @@ body {
   display: none;
 }
 
-.jesuspage-hiddenlogo {
-  display: none;
-}
-
 .icon-container {
   padding-bottom: 5px;
 }
 
-.doctrine li:nth-of-type(odd) {
-  background-color: white;
+.jesuspage-hiddenlogo {
+  display: none;
 }
+
 
 /* Navigation styles */
 
@@ -86,12 +73,6 @@ body {
   margin: 0px 40px;
   background-color: rgb(233, 234, 239);
 }
-
-.title-container {
-  background-image: url("../images/orange_dot_vertical_strip.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}//
 
 .navbar-title, .navbar-title:hover {
   color: black;
@@ -161,245 +142,57 @@ body {
   font-weight: normal;
 }
 
-/* Jesus page */
 
-
-
-.jesus-page-body {
-  background-color: rgb(147, 85, 95);
-}
-
-.page-content.jesus-content {
-  margin: 0px;
-  padding-top: 60px; 
-  margin-bottom: 170px;
-}
-
-.jesus-navbar.navbar {
-  background-color: rgb(0, 27, 55);
-  margin: 0px;
-}
-
-.navbar-nav.jesus .nav-item, .navbar-nav.jesus .nav-link {
-  border: 2px solid rgb(0, 27, 55);
-  color: white !important;
-  padding: .2rem;
-  border-radius: 3px;
-  border-bottom: 2px solid rgb(0, 27, 55);
-}
-
-.navbar-nav.jesus .nav-item:hover, .navbar-nav.jesus .nav-link:hover {
-  border: 2px solid white; 
-  padding: .2rem;
-  border-radius: 0px;
-}
-
-.navbar-nav.jesus .nav-item.nav-link.active {
-  border: 2px solid rgb(0, 27, 55);
-  padding: .2rem;
-  border-radius: 3px;
-  border-bottom: 2px solid rgb(1,60,121);
-}
-
-.navbar-nav.jesus .nav-item.nav-link.active:hover {
-  padding: .2rem;
-  border: 2px solid rgb(0, 27, 55);
-  border-bottom: 2px solid rgb(1,60,121);
-}
-
-.gospel {
-  color: rgb(6, 82, 161);
-}
-
-.blue {
-  color: rgb(81, 129, 180);
-}
-
-.orange {
-  color: rgb(245, 216, 198);
-}
-
-.pair1 {
-  border-left: 10px solid transparent;
-  border-image-source: url(../images/stripe1.png);
-  border-image-width: 10px;
-  border-image-repeat: stretch;
-  padding-left: 10px;
-}
-
-.pair2 {
-  border-left: 10px solid transparent;
-  border-image: url(../images/stripe2.png) 30 stretch;
-  padding-left: 10px;
-}
-
-.pair3 {
-  border-left: 10px solid transparent;
-  border-image: url(../images/stripe3.png) 30 stretch;
-  padding-left: 10px;
-}
-
-.pair4 {
-  border-left: 25px solid transparent;
-  border-image: url(../images/stripe_4.png) 250 stretch;
-  //padding-left: 10px;
-}
-
-.pair5 {
-  border-left: 40px solid transparent;
-  border-image: url(../images/stripe_5.png) 250 stretch;
-  //border-image-width: 15px;
-  padding-left: 0px;
-}
-
-
-
-
-
-.jesus-section1 {
-  background-color: rgb(0, 27, 55);
-  //margin: 0px !important;
-  //padding: 0px !important;
-  padding: 0px 40px;
-  padding-bottom: 1px;
-  padding-top: 10px;
-}
-
-.jesus-section2 {
-  background-color: rgb(0, 15, 37);
-  padding: 0px 20px;
-  padding-bottom: 1px;
-  padding-top: 15px;
-}
-
-.jesus-section3 {
-  background-color: rgb(0, 4, 20);
-  padding: 0px 20px;
-  padding-bottom: 1px;
-  padding-top: 15px;
-}
-
-.jesus-section4 {
-  background-color: rgb(0, 20, 44);
-  padding: 0px 20px;
-  padding-bottom: 1px;
-  padding-top: 15px;
-}
-
-.jesus-section5 {
-  background-color: rgb(24, 36, 61);
-  padding: 0px 20px;
-  padding-bottom: 1px;
-  padding-top: 15px;
-  padding-left: 40px;
-}
-
-.jesus-section6 {
-  background-color: rgb(67, 52, 70);
-  padding: 0px 20px;
-  padding-bottom: 1px;
-  padding-top: 15px;
-}
-
-.jesus-section7 {
-  background-color: rgb(129, 75, 84);
-  padding: 0px 20px;
-  padding-bottom: 1px;
-  padding-top: 15px;
-}
-
-.jesus-section8 {
-  background-color: rgb(147, 85, 95);
-  padding: 0px 20px;
-  padding: 10px;
-  padding-top: 15px;
-}
-
-.jesuspage-contactus {
-  color: white;
-}
-
-/* end of Jesus page */
 
 /* media queries */
 
-@media (min-width: 768px) {
-  .nav-item, .nav-link {
-        margin-left : .2em;
-        margin-right : .2em;
-    }
-}
+@media (max-width: 280px) {
 
-@media (min-width: 992px){
-    .nav-item, .nav-link {
-        margin-left : .5em;
-        margin-right : .5em;
-    }
-    
-  .banner {
-    width: 100%;
-    height: 300px;
-  }
-}
-
-// banner styles
-
-@media (max-width: 1522px) {
-  .banner-text {
-    font-size: 1.75rem;
-    padding: 50px 50px;
-    background-image: url("../images/stroke1.png"); 
-    background-position: center;
-    background-size: 850px 300px;
-    background-repeat: no-repeat;
-  }
-}  
-
-@media (max-width: 1150px) {
-  .banner-text {
-    font-size: 1.25rem;
-    padding: 50px 50px;
-    background-image: url("../images/stroke1.png"); 
-    background-position: center;
-    background-size: 850px 265px;
-    background-repeat: no-repeat;
-  }
-}  
-
-// end of banner styles
-
-@media (max-width: 992px) {
-  .navbar-nav.jesus .nav-item.nav-link.active, .nav-item.nav-link.active {
-    border-bottom: none;
+  .logo {
+    width: 150px;
   }
   
-  .banner {
-    width: 100%;
-    height: 200px;
+  .navbar-toggler-icon {
+    padding-right: 25px;
   }
   
-  .navbar-toggler {
-    padding: 0px;
-    border: 0px;
+  .navbar {
+    margin: 0px -10px;
   }
   
-  .banner-text {
-    font-size: 1.25rem;
-    padding: 50px 50px;
-    background-image: url("../images/stroke1.png"); 
-    background-position: center;
-    background-size: 700px 250px;
-    background-repeat: no-repeat;
+  .page-content {
+    margin: 0px 10px;
+    margin-top: 50px;
+    margin-bottom: 170px;
   }
+  
 }
 
-@media (max-width: 700px) {
+@media (max-width: 300px) {
   .banner-text {
-    font-size: 1.1rem;
+    padding: 50px 50px;
+    font-size: 1rem;
+    background-image: url("../images/stroke1.png"); 
+    background-position: center;
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+  }
+  
+  .connect-with-us {
+    font-size: 0.7rem;
+  }
+ 
+}
+
+@media (max-width: 450px) {
+  .banner-text {
+    //font-size: 0.7;
+    font-size: 1rem;
     padding: 50px 50px;
     background-image: url("../images/stroke1.png"); 
     background-position: center;
-    background-size: 575px 250px;
+    background-size: 350px 250px;
+    //background-size: 300px 175px;
     background-repeat: no-repeat;
   }
 }  
@@ -482,60 +275,84 @@ body {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .banner-text {
-    //font-size: 0.7;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 50px 50px;
     background-image: url("../images/stroke1.png"); 
     background-position: center;
-    background-size: 350px 325px;
-    //background-size: 300px 175px;
+    background-size: 575px 250px;
+    background-repeat: no-repeat;
+  }
+} 
+
+@media (min-width: 768px) {
+  .nav-item, .nav-link {
+        margin-left : .2em;
+        margin-right : .2em;
+    }
+}
+
+@media (min-width: 992px){
+  .nav-item, .nav-link {
+    margin-left : .5em;
+    margin-right : .5em;
+  }
+  
+  .navbar-nav .nav-link:active {
+    border: none;
+  }
+    
+  .banner {
+    width: 100%;
+    height: 300px;
+  }
+}  
+
+
+@media (max-width: 992px) {
+  .navbar-nav.jesus .nav-item.nav-link.active, .nav-item.nav-link.active {
+    border-bottom: none;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .navbar-toggler {
+    padding: 0px;
+    border: 0px;
+  }
+  
+  .banner-text {
+    font-size: 1.25rem;
+    padding: 50px 50px;
+    background-image: url("../images/stroke1.png"); 
+    background-position: center;
+    background-size: 700px 250px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1150px) {
+  .banner-text {
+    font-size: 1.25rem;
+    padding: 50px 50px;
+    background-image: url("../images/stroke1.png"); 
+    background-position: center;
+    background-size: 850px 265px;
     background-repeat: no-repeat;
   }
 }  
 
-@media (max-width: 280px) {
-
-  .logo {
-    width: 150px;
-  }
-  
-  .navbar-toggler-icon {
-    //width: 0.7em;
-    //height: 0.7em;
-    padding-right: 25px;
-  }
-  
-  .navbar {
-    margin: 0px -10px;
-  }
-  
-  .page-content {
-    margin: 0px 10px;
-    margin-top: 50px;
-    margin-bottom: 170px;
-  }
-  
-}
-
-@media (max-width: 300px) {
+@media (max-width: 1522px) {
   .banner-text {
+    font-size: 1.75rem;
     padding: 50px 50px;
-    font-size: 1rem;
     background-image: url("../images/stroke1.png"); 
     background-position: center;
-    background-size: 300px 250px;
-    //background-size: 225px 150px;
+    background-size: 850px 300px;
     background-repeat: no-repeat;
   }
-  
-  .connect-with-us {
-    font-size: 0.7rem;
-  }
- 
 }  
-
-.romans5 {
-  background-color: rgb(42, 89, 114);
-}
