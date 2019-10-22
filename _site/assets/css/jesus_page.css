@@ -124,16 +124,6 @@ main {
   border-bottom: 2px solid rgb(1,60,121);
 }
 
-@media (max-width: 992px) {
-  .navbar-nav.jesus > .nav-item.nav-link.active {
-    border-bottom: none;
-  }
-  
-  .navbar-nav.jesus > .nav-item.nav-link:hover {
-    border: 2px solid rgb(0, 27, 55);
-  }
-}
-
 .point1 {
   border-left: 3px solid rgb(240, 77, 2);
   padding-left: 10px;
@@ -166,3 +156,31 @@ main {
 
 /* media queries */
 
+@media (max-width: 575.98px) {
+  .color-block {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .color-block {
+    padding: 1px 60px;
+  }
+  
+  .color-block1 {
+    padding: 1px 80px;
+  }
+  
+  .navbar {
+    padding: 0px 60px;
+  }
+  
+  .navbar-nav.jesus > .nav-item.nav-link.active {
+    border-bottom: none;
+  }
+  
+  .navbar-nav.jesus > .nav-item.nav-link:hover {
+    border: 2px solid rgb(0, 27, 55);
+  }
+  
+}
