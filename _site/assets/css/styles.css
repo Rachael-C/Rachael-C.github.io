@@ -23,7 +23,7 @@ body { background-color: #e9eaef; }
 /* Navigation styles */
 .navbar-collapse { flex-direction: row; justify-content: flex-end; }
 
-.navbar { margin: 0px 40px; background-color: #e9eaef; }
+.navbar { margin: 0px; padding-left: 60px; padding-right: 60px; background-color: #e9eaef; }
 
 .nav-item, .nav-link { border: 2px solid #e9eaef; color: black !important; padding: .2rem; border-radius: 3px; border-bottom: 2px solid #e9eaef; }
 

@@ -11,65 +11,63 @@ body {
   background-color: rgb(147, 85, 95);
 }
 
-.buffer {
+.buffer-block {
   background-color: rgb(0, 27, 55);
-  padding-top: 100px;
+  padding-top: 110px;
   margin: 0px;
+}
+
+.color-block {
+  padding-left: 190px;
+  padding-right: 190px;
 }
 
 .color-block1 {
   background-color: rgb(0, 27, 55);
-  padding: 0px 60px 0px 100px;
+  padding: 0px 230px 0px 230px;
   padding-bottom: 1px;
   padding-top: 10px;
 }
 
 .color-block2 {
   background-color: rgb(0, 15, 37);
-  padding: 0px 60px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block3 {
   background-color: rgb(0, 4, 20);
-  padding: 0px 60px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block4 {
   background-color: rgb(0, 20, 44);
-  padding: 0px 60px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block5 {
   background-color: rgb(24, 36, 61);
-  padding: 0px 60px;
   padding-bottom: 1px;
   padding-top: 15px;
-  padding-left: 40px;
+  //padding-left: 40px;
 }
 
 .color-block6 {
   background-color: rgb(67, 52, 70);
-  padding: 0px 60px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block7 {
   background-color: rgb(129, 75, 84);
-  padding: 0px 60px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block8 {
   background-color: rgb(147, 85, 95);
-  padding: 0px 60px;
   //padding: 10px;
   padding-top: 15px;
 }
@@ -99,14 +97,14 @@ main {
   color: rgb(0,59,121);
   margin: 0px;
   margin-bottom: 170px;
-  padding-top: 60px; 
+  padding-top: 0px; 
 }
 
 .navbar {
   background-color: rgb(0, 27, 55);
   margin: 0px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 190px;
+  padding-right: 190px;
 }
 
 .navbar-nav.jesus > .nav-item.nav-link {
