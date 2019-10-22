@@ -11,37 +11,43 @@ body {
   background-color: rgb(147, 85, 95);
 }
 
+.buffer {
+  background-color: rgb(0, 27, 55);
+  padding-top: 30px;
+  margin: 0px;
+}
+
 .color-block1 {
   background-color: rgb(0, 27, 55);
-  padding: 0px 40px;
+  padding: 0px 60px 0px 80px;
   padding-bottom: 1px;
   padding-top: 10px;
 }
 
 .color-block2 {
   background-color: rgb(0, 15, 37);
-  padding: 0px 20px;
+  padding: 0px 40px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block3 {
   background-color: rgb(0, 4, 20);
-  padding: 0px 20px;
+  padding: 0px 40px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block4 {
   background-color: rgb(0, 20, 44);
-  padding: 0px 20px;
+  padding: 0px 40px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block5 {
   background-color: rgb(24, 36, 61);
-  padding: 0px 20px;
+  padding: 0px 40px;
   padding-bottom: 1px;
   padding-top: 15px;
   padding-left: 40px;
@@ -49,22 +55,22 @@ body {
 
 .color-block6 {
   background-color: rgb(67, 52, 70);
-  padding: 0px 20px;
+  padding: 0px 40px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block7 {
   background-color: rgb(129, 75, 84);
-  padding: 0px 20px;
+  padding: 0px 40px;
   padding-bottom: 1px;
   padding-top: 15px;
 }
 
 .color-block8 {
   background-color: rgb(147, 85, 95);
-  padding: 0px 20px;
-  padding: 10px;
+  padding: 0px 40px;
+  //padding: 10px;
   padding-top: 15px;
 }
 
@@ -82,7 +88,7 @@ body {
 }
 
 .gospel-meaning {
-  color: rgb(6, 82, 161);
+  color: rgb(6, 100, 161);
 }
 
 .light-background {
@@ -99,6 +105,8 @@ main {
 .navbar {
   background-color: rgb(0, 27, 55);
   margin: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navbar-nav.jesus > .nav-item.nav-link {
@@ -129,23 +137,28 @@ main {
 }
 
 .point1 {
-  border-left: 3px solid transparent;
+  border-left: 3px solid rgb(240, 77, 2);
+  padding-left: 10px;
 }
 
 .point2 {
-  border-left: 3px solid transparent;
+  border-left: 3px solid rgb(123, 48, 45);
+  padding-left: 10px;
 }
 
 .point3 {
-  border-left: 3px solid transparent;
+  border-left: 3px solid rgb(81, 39, 63);
+  padding-left: 10px;
 }
 
 .point4 {
-  border-left: 3px solid transparent;
+  border-left: 3px solid rgb(169, 114, 125);
+  padding-left: 10px;
 }
 
 .point5 {
-  border-left: 3px solid transparent;
+  border-left: 3px solid rgb(207, 144, 154);
+  padding-left: 10px;
 }
 
 .romans5 {

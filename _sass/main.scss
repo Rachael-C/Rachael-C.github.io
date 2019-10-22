@@ -315,8 +315,12 @@ body {
     border: 2px solid rgb(233, 234, 239);
   }
   
-  .navbar-nav.jesus .nav-item.nav-link.active, .nav-item.nav-link.active {
-    border-bottom: none;
+  .navbar-nav > .nav-item.nav-link {
+    border: 2px solid rgb(233, 234, 239);
+  }
+  
+  .navbar-nav > .nav-item.nav-link:active {
+    border: 2px solid rgb(233, 234, 239);
   }
   
   .banner {
