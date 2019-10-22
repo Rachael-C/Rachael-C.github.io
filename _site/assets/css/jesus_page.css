@@ -158,21 +158,21 @@ main {
 
 @media (max-width: 575.98px) {
   .color-block {
-    padding: 0px 60px;
+    padding: 0px 30px;
   }
 }
 
 @media (max-width: 992px) {
   .color-block {
-    padding: 1px 60px;
+    padding: 1px 30px;
   }
   
   .color-block1 {
-    padding: 1px 80px;
+    padding: 1px 50px;
   }
   
   .navbar {
-    padding: 0px 60px;
+    padding: 0px 30px;
   }
   
   .navbar-nav.jesus > .nav-item.nav-link.active {
