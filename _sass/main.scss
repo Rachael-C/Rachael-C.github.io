@@ -84,6 +84,10 @@ body {
   border-bottom: 2px solid rgb(233, 234, 239);
 }
 
+.nav-item:active, .nav-link:active {
+  border: 2px solid rgb(233, 234, 239) !important;
+}
+
 .nav-item:hover, .nav-link:hover {
   border: 2px solid white;
   padding: .2rem;

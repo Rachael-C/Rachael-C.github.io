@@ -27,6 +27,8 @@ body { background-color: #e9eaef; }
 
 .nav-item, .nav-link { border: 2px solid #e9eaef; color: black !important; padding: .2rem; border-radius: 3px; border-bottom: 2px solid #e9eaef; }
 
+.nav-item:active, .nav-link:active { border: 2px solid #e9eaef !important; }
+
 .nav-item:hover, .nav-link:hover { border: 2px solid white; padding: .2rem; }
 
 .nav-item.nav-link.active { border: 2px solid #e9eaef; padding: .2rem; border-radius: 3px; border-bottom: 2px solid #013c79; }
