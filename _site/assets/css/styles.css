@@ -1,6 +1,6 @@
 body { background-color: #e9eaef; }
 
-.banner-text { text-align: center; font-size: 2.5rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 1250px 325px; background-repeat: no-repeat; }
+.banner-text { text-align: center; font-size: 2.5rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 1250px 325px; background-size: 1250px 315px; background-repeat: no-repeat; }
 
 .connect-child { padding: 0px; margin-bottom: 5px; }
 
@@ -93,5 +93,3 @@ body { background-color: #e9eaef; }
 @media (max-width: 1150px) { .banner-text { font-size: 1.25rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 850px 265px; background-repeat: no-repeat; } }
 
 @media (max-width: 1522px) { .banner-text { font-size: 1.75rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 850px 300px; background-repeat: no-repeat; } }
-
-/*# sourceMappingURL=styles.css.map */
