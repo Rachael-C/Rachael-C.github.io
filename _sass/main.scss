@@ -71,10 +71,12 @@ body {
 // End of tests
 
 .navbar {
-  margin: 0px;
-  padding-left: 60px;
-  padding-right: 60px;
-  background-color: rgb(233, 234, 239);
+    margin: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(233, 234, 239);
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .nav-item, .nav-link {
@@ -128,10 +130,12 @@ body {
 }
 
 .page-content {
-  margin: 0px 60px;
+  margin: 0px;
   padding-top: 95px;
   margin-bottom: 200px;
   margin-top: 0px;
+  padding-left: 190px;
+  padding-right: 190px;
   color: rgb(0,59,121);
 }
 
