@@ -3,13 +3,11 @@
 
 .nav-item { border: 2px solid #e9eaef; color: black !important; border-bottom: 2px solid #e9eaef; }
 
-.nav-item:active { border: 2px solid #e9eaef !important; }
-
 .nav-item:hover { border: 2px solid white; padding: .2rem; }
 
-.nav-item.nav-link.active { border: 2px solid #e9eaef; padding: .2rem; border-radius: 3px; border-bottom: 2px solid #013c79; }
+.active { border: 2px solid #e9eaef; border-bottom: 2px solid #013c79; border-radius: 2px; }
 
-.nav-item.nav-link.active:hover { padding: .2rem; border: 2px solid #e9eaef; border-bottom: 2px solid #013c79; }
+.active:hover { border: 2px solid #e9eaef; border-bottom: 2px solid #013c79; }
 
 /* End of navigation styles */
 /* media queries */
@@ -41,10 +39,8 @@
   .navbar-nav .nav-link:active { border: none; }
   .banner { width: 100%; height: 300px; } }
 
-@media (max-width: 992px) { .navbar-nav > .nav-item.nav-link.active { border: none; }
-  .navbar-nav > .nav-item.nav-link:hover { border: 2px solid #e9eaef; }
-  .navbar-nav > .nav-item.nav-link { border: 2px solid #e9eaef; }
-  .navbar-nav > .nav-item.nav-link:active { border: 2px solid #e9eaef; }
+@media (max-width: 992px) { .nav-item { border: none; padding: 3px 0px; }
+  .nav-item:hover { border: none; padding: 3px 0px; }
   .banner { width: 100%; height: 200px; }
   .navbar-toggler { padding: 0px; border: 0px; }
   .banner-text { font-size: 1.25rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 700px 250px; background-repeat: no-repeat; } }
@@ -55,7 +51,7 @@
 
 /* min-width media queries */
 @media (max-width: 767px) { main { padding-left: 10px; padding-right: 10px; }
-  .navbar { padding-left: 10px; padding-right: 10px; } }
+  .navbar { padding-left: 20px; padding-right: 20px; } }
 
 @media (min-width: 768px) { main, .navbar { padding-left: 10px; padding-right: 10px; } }
 
