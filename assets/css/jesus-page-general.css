@@ -3,9 +3,9 @@
   color: white;
 }
 
-.bible-passage.main {
-  font-size: 1.3rem;
-}
+  .bible-passage.main {
+    font-size: 1.3rem;
+  }
 
 body {
   background-color: rgb(147, 85, 95);
@@ -51,7 +51,6 @@ body {
   background-color: rgb(24, 36, 61);
   padding-bottom: 1px;
   padding-top: 15px;
-  //padding-left: 40px;
 }
 
 .color-block6 {
@@ -68,7 +67,6 @@ body {
 
 .color-block8 {
   background-color: rgb(147, 85, 95);
-  //padding: 10px;
   padding-top: 15px;
 }
 
@@ -89,41 +87,22 @@ body {
   color: rgb(6, 100, 161);
 }
 
+
 .light-background {
   color: rgb(245, 216, 198);
+}
+
+.logo {
+  width: 315px;
 }
 
 main {
   color: rgb(0,59,121);
   margin: 0px;
   margin-bottom: 170px;
-  padding-top: 0px; 
+  padding-top: 0px;
 }
 
-.navbar {
-  background-color: rgb(0, 27, 55);
-  margin: 0px;
-  padding-left: 190px;
-  padding-right: 190px;
-}
-
-.navbar-nav.jesus > .nav-item.nav-link {
-    border: 2px solid rgb(0, 27, 55);
-    color: white !important;
-    padding: .2rem;
-  }
-  
-.navbar-nav.jesus > .nav-item:hover, .navbar-nav.jesus > .nav-link:hover {
-  border: 2px solid white;
-  padding: .2rem;
-}
-  
-.navbar-nav.jesus > .nav-item.nav-link.active {
-  border: 2px solid rgb(0, 27, 55);
-  border-radius: 3px;
-  border-bottom: 2px solid rgb(1,60,121);
-  padding: .2rem;
-}
 
 .point1 {
   border-left: 3px solid rgb(240, 77, 2);
@@ -152,36 +131,4 @@ main {
 
 .romans5 {
   background-color: rgb(42, 89, 114);
-}
-
-
-/* media queries */
-
-@media (max-width: 575.98px) {
-  .color-block {
-    padding: 0px 30px;
-  }
-}
-
-@media (max-width: 992px) {
-  .color-block {
-    padding: 1px 30px;
-  }
-  
-  .color-block1 {
-    padding: 1px 50px;
-  }
-  
-  .navbar {
-    padding: 0px 30px;
-  }
-  
-  .navbar-nav.jesus > .nav-item.nav-link.active {
-    border-bottom: none;
-  }
-  
-  .navbar-nav.jesus > .nav-item.nav-link:hover {
-    border: 2px solid rgb(0, 27, 55);
-  }
-  
 }

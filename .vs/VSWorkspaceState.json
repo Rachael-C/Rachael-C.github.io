@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_layouts"
+    "\\assets",
+    "\\assets\\css",
+    "\\_includes",
+    "\\_sass"
   ],
-  "SelectedNode": "\\content",
+  "SelectedNode": "\\assets\\css\\main-general.css",
   "PreviewInSolutionExplorer": false
 }

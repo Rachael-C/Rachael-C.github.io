@@ -1,0 +1,72 @@
+.connect-with-us {
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-top: 0px;
+}
+
+.connect-child {
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.hidden-logo {
+  display: none;
+}
+
+
+.icon-container {
+  padding-bottom: 5px;
+}
+
+.navbar {
+  margin: 0px;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.navbar-toggler {
+  padding: 0px;
+  border: 0px;
+}
+
+.navbar-collapse {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: .2rem;
+  border-radius: 3px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.social-media-icon {
+  margin: 0px 20px;
+}
+
+
+@media (max-width: 300px) {
+
+  .connect-with-us {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .connect-with-us {
+    font-size: 0.8rem;
+  }
+
+  .social-icon {
+    height: 30px;
+    width: 30px;
+  }
+
+}
+
+
