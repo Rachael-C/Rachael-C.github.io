@@ -3,9 +3,10 @@
     "",
     "\\assets",
     "\\assets\\css",
+    "\\content",
     "\\_includes",
     "\\_sass"
   ],
-  "SelectedNode": "\\assets\\css\\main-general.css",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

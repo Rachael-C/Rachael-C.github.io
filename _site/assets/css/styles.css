@@ -11,33 +11,9 @@
 
 /* End of navigation styles */
 /* media queries */
-@media (max-width: 280px) { .logo { width: 150px; }
-  .navbar-toggler-icon { padding-right: 25px; }
-  .navbar { margin: 0px -10px; }
-  main { margin: 0px 10px; margin-top: 50px; margin-bottom: 170px; } }
+@media (max-width: 1150px) { .banner-text { font-size: 1.25rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 850px 265px; background-repeat: no-repeat; } }
 
-@media (max-width: 300px) { .banner-text { padding: 50px 50px; font-size: 1rem; background-image: url("../images/stroke1.png"); background-position: center; background-size: 300px 250px; background-repeat: no-repeat; } }
-
-@media (max-width: 450px) { .banner-text { font-size: 1rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 350px 250px; background-repeat: no-repeat; } }
-
-@media (max-width: 575.98px) { .hidden-logo { display: inline; height: 25px; width: 100px; padding-bottom: 5px; }
-  .navbar-title { display: none; }
-  .navbar { margin: 0px; }
-  .logo { width: 190px; }
-  main { margin: 0px 20px; margin-top: 50px; margin-bottom: 170px; }
-  .navbar-toggler { padding: 0px; border: 0px; }
-  .navbar-toggler-icon { width: 1.3em; height: 1.3em; padding: 0px; }
-  .navbar-title { display: none; }
-  .banner { width: 100%; height: 100px; }
-  .banner-text { font-size: 1rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 450px 200px; background-repeat: no-repeat; } }
-
-@media (max-width: 700px) { .banner-text { font-size: 1.1rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 575px 250px; background-repeat: no-repeat; } }
-
-@media (min-width: 768px) { .nav-item, .nav-link { margin-left: .2em; margin-right: .2em; } }
-
-@media (min-width: 992px) { .nav-item, .nav-link { margin-left: .5em; margin-right: .5em; }
-  .navbar-nav .nav-link:active { border: none; }
-  .banner { width: 100%; height: 300px; } }
+@media (max-width: 1522px) { .banner-text { font-size: 1.75rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 850px 300px; background-repeat: no-repeat; } }
 
 @media (max-width: 992px) { .nav-item { border: none; padding: 3px 0px; }
   .nav-item:hover { border: none; padding: 3px 0px; }
@@ -45,12 +21,24 @@
   .navbar-toggler { padding: 0px; border: 0px; }
   .banner-text { font-size: 1.25rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 700px 250px; background-repeat: no-repeat; } }
 
-@media (max-width: 1150px) { .banner-text { font-size: 1.25rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 850px 265px; background-repeat: no-repeat; } }
+@media (max-width: 700px) { .banner-text { font-size: 1.1rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 575px 250px; background-repeat: no-repeat; } }
 
-@media (max-width: 1522px) { .banner-text { font-size: 1.75rem; padding: 50px 50px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 850px 300px; background-repeat: no-repeat; } }
+@media (max-width: 575.98px) { .hidden-logo { display: inline; height: 25px; width: 100px; padding-bottom: 5px; }
+  .navbar-title { display: none; }
+  .navbar { margin: 0px; }
+  .logo { width: 190px; }
+  main { margin: 0px 0px; margin-bottom: 170px; }
+  .navbar-toggler { padding: 0px; border: 0px; }
+  .navbar-toggler-icon { width: 1.3em; height: 1.3em; padding: 0px; }
+  .navbar-title { display: none; }
+  .banner-text { font-size: 1rem; padding: 25px 25px; /*background-color: darkorange; border-radius: 5px;  text-align:left;*/ background-image: url("../images/stroke1.png"); background-position: center; background-size: 450px 200px; background-repeat: no-repeat; } }
+
+@media (max-width: 450px) { .banner-text { font-size: 1rem; padding: 0px 0px; background-image: url("../images/stroke1.png"); background-position: center; background-size: 350px 250px; background-repeat: no-repeat; } }
+
+@media (max-width: 300px) { .banner-text { padding: 0px 0px; font-size: 1rem; background-image: url("../images/stroke1.png"); background-position: center; background-size: 300px 250px; background-repeat: no-repeat; } }
 
 /* min-width media queries */
-@media (max-width: 767px) { main { padding-left: 10px; padding-right: 10px; }
+@media (max-width: 767px) { main { padding-left: 20px; padding-right: 20px; }
   .navbar { padding-left: 20px; padding-right: 20px; } }
 
 @media (min-width: 768px) { main, .navbar { padding-left: 10px; padding-right: 10px; } }
