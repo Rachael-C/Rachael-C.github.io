@@ -13,6 +13,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.banner-card {
+  display: none;
+}
+
 .doctrine {
   list-style-position: inside;
   padding-left: 0px;

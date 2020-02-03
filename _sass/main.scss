@@ -150,13 +150,23 @@
   .banner-text {
     font-size: 1rem;
     padding: 25px 25px;
-    /*background-color: darkorange;
-    border-radius: 5px; 
-    text-align:left;*/
+    
     background-image: url("../images/stroke1.png");
     background-position: center;
     background-size: 450px 200px;
     background-repeat: no-repeat;
+    display: none;
+  }
+
+  .banner-card {
+    display: block;
+    text-align: center;
+    background-color: #FFAF8C;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 20px 20px;
+    box-shadow: 3px 3px 3px grey;
   }
 }
 

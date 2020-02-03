@@ -15,4 +15,12 @@
 <url>
 <loc>http://localhost:4000/content/jesus.html</loc>
 </url>
+<url>
+<loc>http://localhost:4000/personalWebsite/</loc>
+<lastmod>2019-05-16T21:41:43-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/personalWebsite/template.html</loc>
+<lastmod>2019-05-09T22:31:38-04:00</lastmod>
+</url>
 </urlset>

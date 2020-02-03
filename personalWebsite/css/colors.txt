@@ -1,0 +1,7 @@
+body background-color: rgb(230, 230, 230);
+header: rgb(255, 204, 153);
+	font-family:'PT Sans Narrow', sans-serif;
+
+main font-family: 'Open Sans', sans-serif;
+
+hover bc rgb(255, 230, 204);
