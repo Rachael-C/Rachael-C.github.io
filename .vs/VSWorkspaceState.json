@@ -5,8 +5,9 @@
     "\\assets\\css",
     "\\content",
     "\\_includes",
+    "\\_layouts",
     "\\_sass"
   ],
-  "SelectedNode": "\\_sass\\main.scss",
+  "SelectedNode": "\\_includes\\favicons",
   "PreviewInSolutionExplorer": false
 }
