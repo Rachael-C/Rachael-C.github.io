@@ -165,12 +165,10 @@
 
 @media (max-width: 450px) {
   .banner-text {
-    //font-size: 0.7;
     padding: 0px 0px;
     background-image: url("../images/stroke1.png");
     background-position: center;
     background-size: 350px 250px;
-    //background-size: 300px 175px;
     background-repeat: no-repeat;
   }
 }

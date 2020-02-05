@@ -21,7 +21,6 @@ body {
   margin: 0 auto;
   border-radius: 6px;
   padding: 20px 20px;
-  /*box-shadow: 3px 3px 3px grey;*/
   font-size: 1.3rem;
 }
 
@@ -30,13 +29,13 @@ body {
   padding-left: 0px;
 }
 
-  .doctrine li {
-    padding: 7px 7px;
-  }
+.doctrine li {
+  padding: 7px 7px;
+}
 
-    .doctrine li:nth-of-type(odd) {
-      background-color: white;
-    }
+.doctrine li:nth-of-type(odd) {
+  background-color: white;
+}
 
 .logo {
   width: 315px;

@@ -29,13 +29,13 @@ body {
   padding-left: 0px;
 }
 
-  .doctrine li {
-    padding: 7px 7px;
-  }
+.doctrine li {
+  padding: 7px 7px;
+}
 
-    .doctrine li:nth-of-type(odd) {
-      background-color: white;
-    }
+.doctrine li:nth-of-type(odd) {
+  background-color: white;
+}
 
 .logo {
   width: 315px;
