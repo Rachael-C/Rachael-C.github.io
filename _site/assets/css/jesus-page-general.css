@@ -3,12 +3,13 @@
   color: white;
 }
 
-  .bible-passage.main {
-    font-size: 1.3rem;
-  }
+.bible-passage.main {
+  font-size: 1.3rem;
+}
 
 body {
   background-color: rgb(147, 85, 95);
+    font-size: 1.2rem;
 }
 
 .buffer-block {

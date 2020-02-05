@@ -1,0 +1,108 @@
+/* remember to order styles alphabetically */
+
+ a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+#contact {
+  margin: 10px 0px 10px;
+}
+
+.contact {
+  display: flex;
+  margin-right: auto;
+  width: 60%;
+  flex-direction: column;
+}
+  
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header{
+  display: flex;
+  height: 7.5vh;
+  background-color: rgb(255, 204, 153);
+  font-family:'PT Sans Narrow', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 17px;
+  padding: 0px 10px;
+}
+
+input, input:focus {
+  display: block;
+  margin: 5.5px 0px;
+  padding: 10px 3px;
+  resize: none;  
+  border: solid;
+  border-radius: 4px;
+  border-color: rgb(230, 230, 230);
+  border-width: 1px;
+}
+
+main {
+  background-color: white;
+  margin: 40px auto 0px;
+  width: 76%;
+  padding: 20px 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  height: 100%;
+}
+
+nav a {
+  align-self: stretch;
+  padding:  14.5px;
+}
+
+nav a:hover {
+  padding:  14.5px;
+  background-color: rgb(255, 230, 204);
+}
+
+#send-message {
+  background-color: rgb(255, 204, 153);
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  padding: 15px 10px;
+  margin: 5.5px 0px;
+}
+
+#send-message:hover {
+  transform: scale(1.02);
+  background-color: rgb(255, 191, 128);
+}
+
+textarea, textarea:focus {
+  resize: none;
+  display: block;
+  border-width: 1px;
+  border-radius: 4px;
+  margin: 5.5px 0px;
+  padding: 3px;
+  font-family: Arial;
+  border-color: rgb(230, 230, 230);
+}
+
+textarea:focus, input:focus {
+  border-width: 2px;
+  border-color: rgb(255, 204, 153);
+  outline: none;
+ }

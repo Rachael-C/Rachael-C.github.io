@@ -33,24 +33,26 @@
 
 /* media queries */
 
-@media (max-width: 1150px) {
+
+
+@media (max-width: 1522px) {
   .banner-text {
-    font-size: 1.25rem;
-    padding: 50px 50px;
+    font-size: 1.8rem;
+    padding: 100px 50px;
     background-image: url("../images/stroke1.png");
     background-position: center;
-    background-size: 850px 265px;
+    background-size: 850px 275px;
     background-repeat: no-repeat;
   }
 }
 
-@media (max-width: 1522px) {
+@media (max-width: 1150px) {
   .banner-text {
-    font-size: 1.75rem;
-    padding: 50px 50px;
+    font-size: 1.5rem;
+    padding: 100px 50px;
     background-image: url("../images/stroke1.png");
     background-position: center;
-    background-size: 850px 300px;
+    background-size: 850px 265px;
     background-repeat: no-repeat;
   }
 }
@@ -79,12 +81,16 @@
   }
 
   .banner-text {
-    font-size: 1.25rem;
-    padding: 50px 50px;
+    font-size: 1.4rem;
+    padding: 75px 50px;
     background-image: url("../images/stroke1.png");
     background-position: center;
-    background-size: 700px 250px;
+    background-size: 775px 250px;
     background-repeat: no-repeat;
+  }
+
+  body {
+    font-size: 1.2rem;
   }
 }
 
@@ -96,11 +102,9 @@
 
 @media (max-width: 700px) {
   .banner-text {
-    font-size: 1.1rem;
-    padding: 50px 50px;
     background-image: url("../images/stroke1.png");
     background-position: center;
-    background-size: 575px 250px;
+    background-size: 625px 250px;
     background-repeat: no-repeat;
   }
 }
@@ -119,10 +123,6 @@
 
   .navbar {
     margin: 0px;
-  }
-
-  .logo {
-    width: 190px;
   }
 
   main {
@@ -148,22 +148,24 @@
   }
 
   .banner-text {
-    font-size: 1rem;
     padding: 25px 25px;
-    /*background-color: darkorange;
-    border-radius: 5px; 
-    text-align:left;*/
+    
     background-image: url("../images/stroke1.png");
     background-position: center;
     background-size: 450px 200px;
     background-repeat: no-repeat;
+    display: none;
+  }
+
+  .banner-card {
+    display: block;
+    
   }
 }
 
 @media (max-width: 450px) {
   .banner-text {
     //font-size: 0.7;
-    font-size: 1rem;
     padding: 0px 0px;
     background-image: url("../images/stroke1.png");
     background-position: center;
@@ -176,7 +178,6 @@
 @media (max-width: 300px) {
   .banner-text {
     padding: 0px 0px;
-    font-size: 1rem;
     background-image: url("../images/stroke1.png");
     background-position: center;
     background-size: 300px 250px;
