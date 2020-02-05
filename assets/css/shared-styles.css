@@ -1,6 +1,6 @@
 /* styles that all pages make use of */
 
-.connect-with-us {
+footer {
   background-color: white;
   text-align: center;
   position: fixed;
@@ -10,7 +10,7 @@
   padding-top: 0px;
 }
 
-.connect-child {
+.footer-child {
   padding: 0px;
   margin-bottom: 5px;
 }
@@ -47,20 +47,13 @@
   margin-right: .5em;
 }
 
-.social-media-icon {
+.social-icon-link {
   margin: 0px 20px;
 }
 
 
-@media (max-width: 300px) {
-
-  .connect-with-us {
-    font-size: 0.7rem;
-  }
-}
-
 @media (max-width: 575.98px) {
-  .connect-with-us {
+  footer {
     font-size: 1rem;
   }
 
@@ -68,7 +61,7 @@
     height: 30px;
     width: 30px;
   }
-
 }
+
 
 
