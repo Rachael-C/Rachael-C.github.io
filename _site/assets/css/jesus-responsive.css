@@ -1,0 +1,92 @@
+/* responsive styles that only the Jesus page makes use of */
+
+.navbar {
+  background-color: rgb(0, 27, 55);
+}
+
+.nav-item {
+  border: 2px solid rgb(0, 27, 55);
+  color: white !important;
+}
+
+.nav-item:hover {
+  border: 2px solid white;
+}
+
+.active {
+  border: 2px solid rgb(0, 27, 55);
+  border-bottom: 2px solid rgb(1,60,121);
+  border-radius: 2px;
+}
+
+.active:hover {
+  border: 2px solid rgb(0, 27, 55);
+  border-bottom: 2px solid rgb(1,60,121);
+}
+
+/* max-width media queries */
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 1px 70px;
+  }
+
+  .color-block {
+    padding: 1px 70px;
+  }
+
+  .color-block1 {
+    padding: 1px 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .color-block {
+    padding: 1px 30px;
+  }
+
+  .color-block1 {
+    padding: 1px 50px;
+  }
+
+  .navbar {
+    padding: 2px 30px;
+  }
+
+  .nav-item {
+    border: none;
+    padding: 3px 0px;
+  }
+
+    .nav-item:hover {
+      border: none;
+      padding: 3px 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+  .color-block {
+    padding: 1px 20px;
+  }
+
+  .color-block1 {
+    padding: 1px 40px;
+  }
+  
+  .hidden-logo {
+    display: inline;
+    height: 30px;
+    width: 100px;
+  }
+
+  .navbar {
+    padding: 1px 20px;
+  }
+
+  .navbar-title {
+    display: none;
+  }
+}
+
+
+

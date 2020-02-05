@@ -1,229 +1,72 @@
+/* basic styles that pages apart from the Jesus page make use of */
 
-
-/* Navigation styles */
-
-.navbar {
+body {
   background-color: rgb(233, 234, 239);
+  font-size: 1.3rem;
 }
 
-.nav-item {
-  border: 2px solid rgb(233, 234, 239);
-  color: black !important;
-  border-bottom: 2px solid rgb(233, 234, 239);
+.banner-text {
+  text-align: center;
+  font-size: 2.3rem;
+  padding: 50px 50px;
+  background-image: url("../images/stroke1.png");
+  background-position: center;
+  background-size: 1150px 300px;
+  background-repeat: no-repeat;
 }
 
-.nav-item:hover {
-  border: 2px solid white;
-  padding: .2rem;
+.banner-card {
+  display: none;
+  text-align: center;
+  background-color: #FFAF8C;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 20px 20px;
+  font-size: 1.3rem;
 }
 
-.active {
-  border: 2px solid rgb(233, 234, 239);
-  border-bottom: 2px solid rgb(1,60,121);
-  border-radius: 2px;
+.doctrine {
+  list-style-position: inside;
+  padding-left: 0px;
 }
 
-.active:hover {
-  border: 2px solid rgb(233, 234, 239);
-  border-bottom: 2px solid rgb(1,60,121);
+.doctrine li {
+  padding: 7px 7px;
 }
 
-/* End of navigation styles */
-
-
-/* media queries */
-
-
-
-@media (max-width: 1522px) {
-  .banner-text {
-    font-size: 1.8rem;
-    padding: 100px 50px;
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 850px 275px;
-    background-repeat: no-repeat;
-  }
+.doctrine li:nth-of-type(odd) {
+  background-color: white;
 }
 
-@media (max-width: 1150px) {
-  .banner-text {
-    font-size: 1.5rem;
-    padding: 100px 50px;
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 850px 265px;
-    background-repeat: no-repeat;
-  }
+.logo {
+  width: 315px;
 }
 
-@media (max-width: 992px) {
+.orange-highlight.about {
+  border-left: 5px solid rgb(255,81,0);
+  border-radius: 3px;
+  padding-left: 10px;
+  margin-top: 50px;
+}
 
-  .nav-item {
-    border: none;
-    padding: 3px 0px;
-  }
+.orange-highlight {
+  border-left: 3px solid rgb(255,81,0);
+  border-radius: 3px;
+  padding-left: 10px;
+  margin-top: 50px;
+}
 
-  .nav-item:hover {
-    border: none;
-    padding: 3px 0px;
-  }
-
-
-  .banner {
-    width: 100%;
-    height: 200px;
-  }
-
-  .navbar-toggler {
-    padding: 0px;
-    border: 0px;
-  }
-
-  .banner-text {
-    font-size: 1.4rem;
-    padding: 75px 50px;
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 775px 250px;
-    background-repeat: no-repeat;
-  }
-
-  body {
-    font-size: 1.2rem;
-  }
+main {
+  margin: 0px;
+  padding-top: 95px;
+  margin-bottom: 200px;
+  margin-top: 0px;
+  color: rgb(0,59,121);
 }
 
 
-@media (max-width: 768px) {
-
-}
-
-
-@media (max-width: 700px) {
-  .banner-text {
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 625px 250px;
-    background-repeat: no-repeat;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .hidden-logo {
-    display: inline;
-    height: 25px;
-    width: 100px;
-    padding-bottom: 5px;
-  }
-
-  .navbar-title {
-    display: none;
-  }
-
-  .navbar {
-    margin: 0px;
-  }
-
-  main {
-    margin: 0px 0px;
-    margin-bottom: 170px;
-  }
-
-  .navbar-toggler {
-    padding: 0px;
-    border: 0px;
-  }
-
-
-  .navbar-toggler-icon {
-    width: 1.3em;
-    height: 1.3em;
-    padding: 0px;
-  }
-
-
-  .navbar-title {
-    display: none;
-  }
-
-  .banner-text {
-    padding: 25px 25px;
-    
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 450px 200px;
-    background-repeat: no-repeat;
-    display: none;
-  }
-
-  .banner-card {
-    display: block;
-    
-  }
-}
-
-@media (max-width: 450px) {
-  .banner-text {
-    padding: 0px 0px;
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 350px 250px;
-    background-repeat: no-repeat;
-  }
-}
-
-@media (max-width: 300px) {
-  .banner-text {
-    padding: 0px 0px;
-    background-image: url("../images/stroke1.png");
-    background-position: center;
-    background-size: 300px 250px;
-    background-repeat: no-repeat;
-  }
-}
-
-
-/* min-width media queries */
-
-
-
-@media (max-width: 767px) {
-  main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .navbar {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (min-width: 768px) {
-  main, .navbar {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (min-width: 900px) {
-  main, .navbar {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-@media (min-width: 1024px) {
-  main, .navbar {
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-}
-
-@media (min-width: 1200px) {
-  main, .navbar {
-    padding-left: 190px;
-    padding-right: 190px;
-  }
+.statement-of-faith {
+  font-size: inherit;
+  font-weight: normal;
 }
