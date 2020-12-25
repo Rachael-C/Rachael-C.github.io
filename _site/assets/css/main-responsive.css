@@ -37,14 +37,14 @@
   .banner-text {
     font-size: 1.8rem;
     padding: 100px 50px;
-    background-size: 850px 275px;
+    background-size: 1300px 450px;
   }
 }
 
 @media (max-width: 1265px) {
   .banner-text {
     font-size: 1.5rem;
-    background-size: 850px 265px;
+    background-size: 1100px 400px;
   }
 
   main, .navbar {
@@ -65,7 +65,7 @@
   .banner-text {
     font-size: 1.4rem;
     padding: 75px 50px;
-    background-size: 775px 250px;
+    background-size: 1000px 350px;
   }
 
   main, .navbar {
@@ -87,7 +87,7 @@
 
 @media (max-width: 768px) {
   .banner-text {
-    background-size: 590px 225px;
+    background-size: 850px 350px;
   }
 }
 
