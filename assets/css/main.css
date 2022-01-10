@@ -50,6 +50,12 @@ body {
   margin-top: 50px;
 }
 
+.orange-highlight.contact {
+  border-left: 5px solid rgb(255,81,0);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
 .orange-highlight {
   border-left: 3px solid rgb(255,81,0);
   border-radius: 3px;
